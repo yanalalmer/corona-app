@@ -270,3 +270,13 @@ body {
   background-color: var(--bg-hover);
 }
 /* end countries table */
+
+/* footer */
+.footer {
+  background-color: var(--bg-content);
+  box-shadow: var(--shadow);
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 2rem;
+}
+/* end footer */
