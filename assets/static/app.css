@@ -203,3 +203,60 @@ body {
   background-color: var(--bg-hover);
 }
 /* end country dropdown */
+/* count box */
+.count {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.count-icon {
+  --width: 70px;
+  width: var(--width);
+  height: var(--width);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 2.5rem;
+  margin-right: 15px;
+}
+
+.count-info h5 {
+  font-size: 1.5rem;
+}
+
+.count-info span {
+  display: inherit;
+  margin-top: -14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.count-confirmed .count-icon {
+  background-color: #ffa0a0;
+  color: red;
+}
+
+.count-confirmed .count-info h5 {
+  color: red;
+}
+
+.count-recovered .count-icon {
+  background-color: #bffabf;
+  color: green;
+}
+
+.count-recovered .count-info h5 {
+  color: green;
+}
+
+.count-death .count-icon {
+  background-color: #e2e8f0;
+  color: #373c43;
+}
+
+.count-death .count-info h5 {
+  color: #373c43;
+}
+/* end count box */
