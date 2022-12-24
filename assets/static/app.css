@@ -9,12 +9,6 @@ html {
   box-sizing: inherit;
 }
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 ol,
 ul {
@@ -35,6 +29,11 @@ img {
 /* global css */
 body {
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background-color: var(--bg-body);
+  color: var(--color-txt);
+  padding-top: calc(var(--nav-height) + 30px);
+  font-size: 16px;
 }
 :root {
   --bg-body: #fafbfd;

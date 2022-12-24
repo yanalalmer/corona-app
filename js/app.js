@@ -1,3 +1,4 @@
+// variables
 const COLORS = {
   confirmed: '#ff0000',
   recovered: '#008000',
